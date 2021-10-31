@@ -1,0 +1,33 @@
+.movie_card {
+  display: flex;
+border-bottom: 2px solid black;
+  padding-bottom: 20px;
+
+}
+
+.movie_card_content {
+  margin-left: 20px;
+}
+
+.movie_card_title {
+  font-size: 20px;
+}
+
+.movie_card_overview {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie_card_genres {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.movie_card_genresList {
+  display: inline-flex;
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+}
+
